@@ -1,0 +1,75 @@
+****All files should be organized with Maya's project structure****
+
+->File Naming Structure for Models:
+
+ -->m_"name of room"_"name of object"_"level of detail"_"state of completion"
+
+ -->replace anything in quotes with the appropriate selection below:
+    -->names of rooms:
+       -->navajo
+       -->hall
+       -->theater
+       -->shop
+       -->duck
+       -->ball
+       -->prom
+       -->bridge
+       -->print
+       -->exterior
+
+    -->levels of detail:
+       -->high
+       -->medium (if we have medium)
+       -->low
+
+    -->states of completion:
+       -->p = placeholder geometry 
+       -->r = in the process of modeling, will be revised
+       -->f = model and UVs completely finished, will not be updated
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+->File Naming Structure for UVs:
+
+ -->uv_"name of room"_"name of object"_"###"_"state of completion"
+
+    -->###:
+       --> 3 digit number for objects that have multiple texture maps
+
+    -->states of completion:
+       -->p = placeholder UV
+       -->r = in the process of UVing, will be revised
+       -->f = UV completely finished, will not be updated
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+->File Naming Structure for Textures:
+
+ -->t_"name of room"_"name of object"_"type of map"_"state of completion"
+
+ -->Replace anything in quotes with the appropriate selection below:
+    -->type of map:
+       -->d = diffuse
+       -->s = specular
+       -->g = gloss
+       -->i = incandescence
+       -->o = opacity
+       -->v = vector displacement
+       -->b = bump
+       -->n = normal
+       -->r = reflection
+
+    -->states of completion:
+       -->p = placeholder texture
+       -->r = in the process of texturing, will be revised
+       -->f = texture completely finished, will not be updated
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+File Naming Structure for Code:
+
+-->"SSUSBuild**.**.**-'XX''Month''XXXX'.extention"; Ex: SSUSBuild1.0.5-14Nov2013.unity3d
+   -->**.**.** is build version; Ex: 3.1.5, 3.1.14
+   -->XX is date; ex: 14, 5
+   -->Month is month in abbreviated form; Ex: Oct, Nov, Apr
+   -->XXXX is year; Ex: 2013, 2014
